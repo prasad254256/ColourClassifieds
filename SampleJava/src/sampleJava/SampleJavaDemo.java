@@ -6,12 +6,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SampleJavaDemo {
 	
-	WebDriver d = new FirefoxDriver();
+	WebDriver driver = new FirefoxDriver();
 	
 	@Test
 	public void launch()
 	{
-		d.get("https://www.reload.in");
+		driver.get("https://www.reload.in");
 	}
 
 }

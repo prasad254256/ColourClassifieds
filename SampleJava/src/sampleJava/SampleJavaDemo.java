@@ -11,7 +11,7 @@ public class SampleJavaDemo {
 	@Test
 	public void launch()
 	{
-		d.get("https://www.reload.in/");
+		d.get("https://www.reload.in");
 	}
 
 }

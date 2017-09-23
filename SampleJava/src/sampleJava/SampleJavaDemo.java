@@ -11,8 +11,11 @@ public class SampleJavaDemo {
 	@Test
 	public void launch()
 	{
+
 		d.get("https://www.reload.in/");
 		System.out.println("Launched Successfully");
+
+
 	}
 
 }
